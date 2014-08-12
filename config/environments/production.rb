@@ -81,7 +81,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   # Fir Heroku
-  config.action_mailer.default_url_options = { :host => 'http://kvanaindia.herokuapp.com/' }
+  config.action_mailer.default_url_options = { :host => 'http://pinteresting-commits.herokuapp.com/' }
   # paper clip-Amazon
   config.paperclip_defaults = {
     :storage => :s3,
